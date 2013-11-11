@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   revision="0"
+   schedule="add"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/echecs"
+   kind="dir"/>
+<entry
+   name="Case.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Case.java"
+   kind="file"
+   copyfrom-rev="1"/>
+<entry
+   name="Cavalier.java"
+   revision="1"
+   schedule="add"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Cavalier.java"
+   copied="true"
+   copyfrom-rev="1"
+   kind="file"/>
+<entry
+   name="Couleur.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Couleur.java"
+   kind="file"
+   copyfrom-rev="1"/>
+<entry
+   name="Dame.java"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="Fou.java"
+   revision="1"
+   schedule="add"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Fou.java"
+   copied="true"
+   copyfrom-rev="1"
+   kind="file"/>
+<entry
+   name="Joueur.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Joueur.java"
+   kind="file"
+   copyfrom-rev="1"/>
+<entry
+   name="MainClass.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/MainClass.java"
+   kind="file"
+   copyfrom-rev="1"/>
+<entry
+   name="Piece.java"
+   revision="1"
+   schedule="add"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Piece.java"
+   copied="true"
+   copyfrom-rev="1"
+   kind="file"/>
+<entry
+   name="Pion.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Pion.java"
+   kind="file"
+   copyfrom-rev="1"/>
+<entry
+   name="Plateau.java"
+   revision="1"
+   schedule="add"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Plateau.java"
+   copied="true"
+   copyfrom-rev="1"
+   kind="file"/>
+<entry
+   name="Roi.java"
+   revision="1"
+   schedule="add"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Roi.java"
+   copied="true"
+   copyfrom-rev="1"
+   kind="file"/>
+<entry
+   name="Tour.java"
+   revision="1"
+   schedule="add"
+   copied="true"
+   copyfrom-url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/Tour.java"
+   kind="file"
+   copyfrom-rev="1"/>
+</wc-entries>

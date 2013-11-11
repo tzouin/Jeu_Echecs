@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   name=""
+   revision="0"
+   schedule="add"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/echecsController"
+   kind="dir"/>
+<entry
+   name="EchiquierController.java"
+   schedule="add"
+   kind="file"/>
+</wc-entries>

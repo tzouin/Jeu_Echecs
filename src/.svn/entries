@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   name=""
+   revision="1"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src"
+   uuid="63ea36c9-6564-4b9f-a222-d756b4bb39cd"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Case.java"
+   schedule="delete"
+   checksum="2baab0906fd45faf21d1d87d27ad4ffe"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Cavalier.java"
+   schedule="delete"
+   checksum="fecaf6bd50a9039254780941542e3612"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Couleur.java"
+   schedule="delete"
+   checksum="9942b99d8dc3733d457b26ca78a6a2c4"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Fou.java"
+   schedule="delete"
+   checksum="89236da78374e866db98c6a5119fc871"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Joueur.java"
+   schedule="delete"
+   checksum="a8e41d7b904904899f0e1bab20254dd0"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="MainClass.java"
+   schedule="delete"
+   checksum="e6efa97fda2228f064326eea290a6669"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Piece.java"
+   schedule="delete"
+   checksum="2a09d7584ec9904a2b8c5f8580bea0d9"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Pion.java"
+   schedule="delete"
+   checksum="2d2af180cb33ac4c757bcafb330fad3d"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Plateau.java"
+   schedule="delete"
+   checksum="654d73d4510d4281a2b621c1e5652120"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Reine.java"
+   schedule="delete"
+   checksum="6c2547a766f0dd2f5463767ceba84e95"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Roi.java"
+   schedule="delete"
+   checksum="d656095d1f40ded5dd88a423735fb38b"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="Tour.java"
+   schedule="delete"
+   checksum="8e0ca984bdfafa7fd2f273a549c066b3"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   committed-rev="1"
+   text-time="2011-12-06T20:01:54.766000Z"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="echecs"
+   schedule="add"
+   kind="dir"/>
+<entry
+   name="echecsController"
+   schedule="add"
+   kind="dir"/>
+<entry
+   name="echecsView"
+   schedule="add"
+   kind="dir"/>
+<entry
+   name="observable"
+   schedule="add"
+   kind="dir"/>
+</wc-entries>

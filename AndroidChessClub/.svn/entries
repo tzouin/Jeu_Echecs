@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   name=""
+   revision="1"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/AndroidChessClub"
+   uuid="63ea36c9-6564-4b9f-a222-d756b4bb39cd"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+</wc-entries>

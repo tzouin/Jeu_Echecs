@@ -1,0 +1,31 @@
+import java.awt.Point;
+
+
+public class Cavalier extends Piece {
+	
+	
+	public Cavalier(Couleur couleurPiece) {
+		super(couleurPiece);
+	}
+	
+	public boolean caseVide(Case[][] grille, Point source, Point destination){
+		boolean bool = true;
+		
+		return bool;
+	}
+	
+	public boolean caseIdentique(Point source, Point destination) {
+		return source.x == destination.x && source.y == destination.y;
+	}
+
+	public boolean deplacerPiece(Case[][] grille, Point source, Point destination) {
+		boolean bool = false;
+		
+		return bool;
+	}
+	
+	public String toString() {
+		return "Caval";
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class Case {
+	
+	private Piece piece;
+
+	public void setPiece(Piece piece) {
+		this.piece = piece;
+	}
+
+	public Piece getPiece() {
+		return piece;
+	}
+	
+	public Case(Piece piece) {
+		this.piece = piece;
+	}
+	
+	public String toString() {
+		StringBuffer se = new StringBuffer();
+		se.append("| ");
+		se.append(piece.toString());
+		se.append(" |");
+		return se.toString();
+	}
+}

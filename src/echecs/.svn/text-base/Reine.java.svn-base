@@ -1,0 +1,80 @@
+import java.awt.Point;
+
+
+public class Reine extends Piece {
+	
+	public Reine(Couleur couleurPiece) {
+		super(couleurPiece);
+	}
+	
+	public boolean caseVideFou(Case[][] grille, Point source, Point destination){
+		boolean bool = true;
+		int departX = (source.x <= destination.x) ? source.x : destination.x ;
+		int departY = (source.y <= destination.y) ? source.y : destination.y ;
+		int diffX = source.x - destination.x;
+		int taille  = (diffX > 0) ? diffX : (-1 * diffX);
+		for(int i=0; i<taille-1; i++) {
+			if (grille[++departX][++departY] != null) {
+				bool = bool & false;
+			}
+		}
+		return bool;
+	}
+	
+	public boolean caseIdentique(Point source, Point destination) {
+		return source.x == destination.x && source.y == destination.y;
+	}
+
+	public boolean deplacerPieceFou(Case[][] grille, Point source, Point destination) {
+		boolean bool = false;
+		int diffX = source.x - destination.x;
+		int diffY = source.y - destination.y;
+		if ( ( (diffX == diffY) || (diffX == ((-1) * diffY)) ) 
+				&& ( grille[destination.x][destination.y] == null )
+				&& !caseIdentique(source, destination)
+				&& caseVideFou(grille, source, destination)
+				) {
+			bool = true;
+		}
+		return bool;
+	}
+	
+	public boolean caseVideTour(Case[][] grille, Point source, Point destination){
+		boolean bool = true;
+		int departX = (source.x <= destination.x) ? source.x : destination.x ;
+		int departY = (source.y <= destination.y) ? source.y : destination.y ;
+		int diffX = source.x - destination.x;
+		int diffY = source.y - destination.y;
+		int taille  = (Math.abs(diffX) >= Math.abs(diffY)) ? Math.abs(diffX) : Math.abs(diffY);
+		int incX = 0, incY = 0;
+		incX = (diffX == 0) ? 0 : (incX+1);
+		incY = (diffY == 0) ? 0 : (incY+1);
+		for(int i=0; i<taille-1; i++) {
+			if (grille[departX+incX][departY+incY] != null) {
+				bool = bool & false;
+			}
+		}
+		return bool;
+	}
+
+	public boolean deplacerPieceTour(Case[][] grille, Point source, Point destination) {
+		boolean bool = false;
+		if ( ((source.x == destination.x) || (source.y == destination.y)) 
+				&& ( grille[destination.x][destination.y] == null )
+				&& !caseIdentique(source, destination)
+				&& caseVideTour(grille, source, destination)
+				) {
+			bool = true;
+		}
+		return bool;
+	}
+	
+	public boolean deplacerPiece(Case[][] grille, Point source, Point destination) {
+		return deplacerPieceFou(grille, source, destination) || deplacerPieceTour(grille, source, destination);
+	}
+
+	public String toString() {
+		return "Reine";
+	}
+
+}

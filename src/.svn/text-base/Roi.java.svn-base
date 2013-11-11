@@ -1,0 +1,20 @@
+import java.awt.Point;
+
+
+public class Roi extends Piece {
+	
+	public Roi(Couleur couleurPiece) {
+		super(couleurPiece);
+	}
+	
+	public boolean deplacerPiece(Case[][] grille, Point source, Point destination) {
+		boolean bool = false;
+		
+		return bool;
+	}
+
+	public String toString() {
+		return "Roi  ";
+	}
+	
+}

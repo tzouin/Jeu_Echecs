@@ -1,0 +1,16 @@
+import java.awt.Point;
+
+
+public abstract class Piece {
+	
+	protected  Couleur couleurPiece; 
+	
+	public Piece(Couleur couleurPiece) {
+		this.couleurPiece = couleurPiece;
+	}
+	
+	public abstract boolean deplacerPiece(Case[][] grille, Point source, Point destination);
+	
+	public abstract String toString();
+	
+}

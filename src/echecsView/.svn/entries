@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   revision="0"
+   schedule="add"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/echecsView"
+   kind="dir"/>
+<entry
+   name="Echiquier.java"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="EcouteurSouris.java"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="FenetreJeu.java"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="RessourcesPiece.java"
+   schedule="add"
+   kind="file"/>
+</wc-entries>

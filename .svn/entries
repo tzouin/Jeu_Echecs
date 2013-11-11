@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   revision="1"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs"
+   uuid="63ea36c9-6564-4b9f-a222-d756b4bb39cd"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name=".classpath"
+   checksum="faad576c953ac0f96b6adfb7e2e3bf8f"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   text-time="2011-12-06T20:01:54.766000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name=".project"
+   checksum="0c33f6e87ca88324a4ef488eb132b72b"
+   last-author="bjuillar@UNIV-FCOMTE.FR"
+   text-time="2011-12-06T20:01:54.766000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2011-12-06T20:01:54.766635Z"/>
+<entry
+   name="AndroidChessClub"
+   kind="dir"/>
+<entry
+   name="CB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="CN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="DB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="DN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="FB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="FN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="PB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="PN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="RB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="RN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="TB.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="TN.png"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="caseBlanche.jpg"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="caseNoire.jpg"
+   revision="0"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

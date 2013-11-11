@@ -1,0 +1,16 @@
+import java.awt.Point;
+
+
+public class MainClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Plateau plateau = new Plateau();
+		System.out.println(plateau);
+		System.out.println(plateau.getGrille()[3][3].getPiece().deplacerPiece(plateau.getGrille(), new Point(3,3), new Point(7,3)));
+	}
+
+}

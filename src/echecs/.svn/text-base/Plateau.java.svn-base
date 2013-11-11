@@ -1,0 +1,98 @@
+
+public class Plateau {
+	
+	private Joueur joueur1;
+	private Joueur joueur2;
+	private Case[][] grille;
+	
+	public void setJoueur1(Joueur joueur1) {
+		this.joueur1 = joueur1;
+	}
+	
+	public Joueur getJoueur1() {
+		return joueur1;
+	}
+
+	public void setJoueur2(Joueur joueur2) {
+		this.joueur2 = joueur2;
+	}
+
+	public Joueur getJoueur2() {
+		return joueur2;
+	}
+
+	public void setGrille(Case[][] grille) {
+		this.grille = grille;
+	}
+
+	public Case[][] getGrille() {
+		return grille;
+	}
+	
+	public Plateau() {
+		this.joueur1 = new Joueur("Bruno", Couleur.BLANC);
+		this.joueur2 = new Joueur("Cyril", Couleur.NOIR);
+		this.grille  = new Case[8][8];
+		for(int i=0; i<grille.length; i++) {
+			for(int j=0; j<grille[i].length; j++) {
+				grille[i][j] = null;
+			}
+		}
+		/*grille[0][0] = new Case(new Tour(Couleur.NOIR));
+		grille[0][1] = new Case(new Cavalier(Couleur.NOIR));
+		grille[0][2] = new Case(new Fou(Couleur.NOIR));
+		grille[0][3] = new Case(new Reine(Couleur.NOIR));
+		grille[0][4] = new Case(new Roi(Couleur.NOIR));
+		grille[0][5] = new Case(new Fou(Couleur.NOIR));
+		grille[0][6] = new Case(new Cavalier(Couleur.NOIR));
+		grille[0][7] = new Case(new Tour(Couleur.NOIR));
+		grille[1][0] = new Case(new Pion(Couleur.NOIR));
+		grille[1][1] = new Case(new Pion(Couleur.NOIR));
+		grille[1][2] = new Case(new Pion(Couleur.NOIR));
+		grille[1][3] = new Case(new Pion(Couleur.NOIR));
+		grille[1][4] = new Case(new Pion(Couleur.NOIR));
+		grille[1][5] = new Case(new Pion(Couleur.NOIR));
+		grille[1][6] = new Case(new Pion(Couleur.NOIR));
+		grille[1][7] = new Case(new Pion(Couleur.NOIR));
+		
+		grille[6][0] = new Case(new Pion(Couleur.BLANC));
+		grille[6][1] = new Case(new Pion(Couleur.BLANC));
+		grille[6][2] = new Case(new Pion(Couleur.BLANC));
+		grille[6][3] = new Case(new Pion(Couleur.BLANC));
+		grille[6][4] = new Case(new Pion(Couleur.BLANC));
+		grille[6][5] = new Case(new Pion(Couleur.BLANC));
+		grille[6][6] = new Case(new Pion(Couleur.BLANC));
+		grille[6][7] = new Case(new Pion(Couleur.BLANC));
+		grille[7][0] = new Case(new Tour(Couleur.BLANC));
+		grille[7][1] = new Case(new Cavalier(Couleur.BLANC));
+		grille[7][2] = new Case(new Fou(Couleur.BLANC));
+		grille[7][3] = new Case(new Reine(Couleur.BLANC));
+		grille[7][4] = new Case(new Roi(Couleur.BLANC));
+		grille[7][5] = new Case(new Fou(Couleur.BLANC));
+		grille[7][6] = new Case(new Cavalier(Couleur.BLANC));
+		grille[7][7] = new Case(new Tour(Couleur.BLANC));*/
+		
+		grille[3][3] = new Case(new Reine(Couleur.BLANC));
+		grille[4][3] = new Case(new Cavalier(Couleur.BLANC));
+	}
+	
+	public String toString() {
+		StringBuffer se = new StringBuffer();
+		se.append("      0        1        2        3        4        5       6         7\n");
+		for(int i=0; i<grille.length; i++) {
+			se.append(i+" ");
+			for(int j=0; j<grille[i].length; j++) {
+				if (grille[i][j] != null){
+					se.append(grille[i][j].toString());
+				}
+				else {
+					se.append("|       |");
+				}
+			}
+			se.append("\n");
+		}
+		return se.toString();
+	}
+
+
+}

@@ -1,0 +1,31 @@
+import java.awt.Point;
+
+
+public class Pion extends Piece {
+	
+	private boolean deja_deplace;
+	
+	public void setDeja_deplace(boolean deja_deplace) {
+		this.deja_deplace = deja_deplace;
+	}
+
+	public boolean isDeja_deplace() {
+		return deja_deplace;
+	}
+	
+	public Pion(Couleur couleurPiece) {
+		super(couleurPiece);
+		deja_deplace = false;
+	}
+
+	public boolean deplacerPiece(Case[][] grille, Point source, Point destination) {
+		return false;
+	}
+	
+	public String toString() {
+		return "Pion ";
+	}
+
+	
+
+}

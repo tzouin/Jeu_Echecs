@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub"
+   revision="0"
+   schedule="add"
+   url="https://dept-info.univ-fcomte.fr/svn/AndroidChessClub/Jeu_Echecs/src/observable"
+   kind="dir"/>
+<entry
+   name="Observable.java"
+   schedule="add"
+   kind="file"/>
+<entry
+   name="Observer.java"
+   schedule="add"
+   kind="file"/>
+</wc-entries>
